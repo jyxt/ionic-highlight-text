@@ -9,7 +9,14 @@ requires ionic framework and jquery
 ## How to use..
 
 1. add jQuery and `ionic-searchable-text.bundle.min.js` to index.html
-2. in page template, add 
+2. include `'searchable-text'` in module
+
+```
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'searchable-text'])
+```
+
+3
+. in page template, add 
 
 ```
     <searchable-text text="{{text}}" show-input="showSearchInput" input="input"></searchable-text>
