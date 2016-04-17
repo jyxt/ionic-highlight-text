@@ -1,4 +1,4 @@
-# ionic-searchableText
+# ionic-searchable-text
 An ionic plugin for text search and highlight
 
 requires ionic framework and jquery
