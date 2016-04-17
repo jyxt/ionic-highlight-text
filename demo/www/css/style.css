@@ -1,0 +1,23 @@
+.searchable-text-found {
+  border: 1px solid red;
+  color: green;
+  border-radius: 3px;
+}
+
+.searchable-text-focus{
+  background-color: yellow;
+}
+
+.searchable-text-button-next{
+  position: fixed;
+  top: 0px;
+  right: 0;
+}
+
+
+.searchable-text-button-search-nav{
+    position: relative !important;
+    top: 0 !important;
+    bottom:0 !important;
+    color: #fff !important;
+}
